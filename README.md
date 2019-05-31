@@ -376,3 +376,7 @@ of `db_query_4` uses the `scan_avx_4` function (which calls AVX intrinsics). We
 have left an earlier implementation of the scan function named `scan_sse_16_4`, 
 which uses only SSE, in the `scan_simd.hpp` file. You may modify `db_query_4.cpp`
 to use the older `scan_sse_16_4` instead of `scan_avx_4`.
+
+## License
+This project is licensed under the terms of BSD 3-clause Clear license.
+by downloading this program, you commit to comply with the license as stated in the LICENSE.md file.
